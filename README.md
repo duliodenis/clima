@@ -1,7 +1,7 @@
 # Clima
 An iOS and Android Weather App written in Flutter 1.5 / Dart 2.3. Uses the OpenWeatherMap API and the device geolocation.
 
-![](art/screenshot/clima_01.png?raw=true) 
+![](art/screenshot/clima_02.png?raw=true) 
 
 ### Licensing
 Clima is licensed under [the MIT License](LICENSE).
