@@ -1,5 +1,5 @@
 # Clima
-An iOS and Android Weather App written in Flutter 1.5 / Dart 2.3. Uses the OpenWeatherMap API and the device geolocation.
+An iOS and Android Weather App written in Flutter 1.5 / Dart 2.3 and Swift. Uses the OpenWeatherMap API and the device geolocation.
 
 ![](art/screenshot/clima_03.gif?raw=true) 
 
