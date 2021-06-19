@@ -9,7 +9,11 @@
 import UIKit
 
 class WeatherViewController: UIViewController, UITextFieldDelegate, WeatherManagerDelegate {
-    func didUpdateWeather(weatherData: WeatherModel) {
+    func didFailWithError(error: Error) {
+        print(error)
+    }
+    
+    func didUpdateWeather(_ weatherManager: WeatherManager, weatherData: WeatherModel) {
         print("Step 2. In the VC")
         print(weatherData.conditionName)
     }
