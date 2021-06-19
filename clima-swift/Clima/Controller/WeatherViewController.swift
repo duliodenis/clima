@@ -16,6 +16,11 @@ class WeatherViewController: UIViewController, UITextFieldDelegate, WeatherManag
     func didUpdateWeather(_ weatherManager: WeatherManager, weatherData: WeatherModel) {
         print("Step 2. In the VC")
         print(weatherData.conditionName)
+        DispatchQueue.main.async {
+            self.temperatureLabel.text = weatherData.temperatureString
+            self.conditionImageView.image = UIImage(systemName: weatherData.conditionName)
+            self.cityLabel.text = weatherData.cityName
+        }
     }
     
     @IBOutlet weak var conditionImageView: UIImageView!
